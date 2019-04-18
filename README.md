@@ -10,6 +10,7 @@ $ cd <your catkin workscape>/src
 $ git clone https://https://github.com/zvatansever/AdaptiveMonteCarloLocalization
 $ cd ..
 $ catkin_make
-$roslaunch AdaptiveMonteCarloLocalization world.launch
+$ source devel/setup.bash
+$ roslaunch AdaptiveMonteCarloLocalization world.launch
 ```
 
